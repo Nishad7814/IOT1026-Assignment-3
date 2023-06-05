@@ -151,7 +151,7 @@ public class Pack
 
     public class Water : InventoryItem
     {
-        public Water() : base(1.5f, 1.5f) { }
+        public Water() : base(1.5f, 1.5f) { }//cc
 
         public override string Display()
         {

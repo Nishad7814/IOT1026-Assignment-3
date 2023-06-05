@@ -52,7 +52,7 @@ public class PackTests
     {
         Pack pack = new Pack(1, 1f, 1f);
 
-        bool result1 = pack.Add(new Pack.Rope());//yz
+        bool result1 = pack.Add(new Pack.Rope());
         bool result2 = pack.Add(new Pack.Water());
 
         Assert.IsTrue(result1);
