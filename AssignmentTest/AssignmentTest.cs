@@ -13,7 +13,7 @@ public class PackTests
 
         Pack pack = new Pack(maxCount, maxVolume, maxWeight);
 
-        Assert.AreEqual(maxCount, pack.GetMaxCount());
+        Assert.AreEqual(maxCount, pack.GetMaxCount());//yz
         Assert.AreEqual(0f, pack.GetVolume());
         Assert.AreEqual(0f, pack.GetWeight());
     }
@@ -52,7 +52,7 @@ public class PackTests
     {
         Pack pack = new Pack(1, 1f, 1f);
 
-        bool result1 = pack.Add(new Pack.Rope());
+        bool result1 = pack.Add(new Pack.Rope());//yz
         bool result2 = pack.Add(new Pack.Water());
 
         Assert.IsTrue(result1);

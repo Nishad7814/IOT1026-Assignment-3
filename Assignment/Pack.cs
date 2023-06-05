@@ -141,7 +141,7 @@ public class Pack
 
     public class Rope : InventoryItem
     {
-        public Rope() : base(1f, 3f) { }
+        public Rope() : base(1f, 3f) { }//yz
 
         public override string Display()
         {
